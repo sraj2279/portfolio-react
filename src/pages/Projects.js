@@ -13,7 +13,6 @@ function Projects() {
                 <ProjectItem name="example 3" />
                 <ProjectItem name="example 4" />
                 <ProjectItem name="example 5" />
-                <ProjectItem name="example 6" />
             </div>
         </div>
     )
