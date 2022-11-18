@@ -11,6 +11,8 @@ function Projects() {
                 <ProjectItem name="Uni Capstone Project" image={Proj1} url="https://bitbucket.org/sraj2279/comp3888_t17_07_group1/src/master/" />
                 <ProjectItem name="example 2" />
                 <ProjectItem name="example 3" />
+                <ProjectItem name="example 4" />
+                <ProjectItem name="example 5" />
             </div>
         </div>
     )
