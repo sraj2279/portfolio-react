@@ -3,12 +3,13 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn"
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import '../styles/Home.css'
+import { NameAnimation } from "../components/TypeAnimations"
 
 function Home() {
     return (
         <div className="home">
             <div className="about">
-                <h1> Hi, My Name is Ben </h1>
+                <NameAnimation />
                 <div className="prompt">
                     <p>A computer science graduate with a passion for learning and creating.</p>
                     <LinkedInIcon onClick={() => window.open("https://www.linkedin.com/in/shyam-raj-652b55198/")} />
