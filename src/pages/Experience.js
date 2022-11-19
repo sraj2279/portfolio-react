@@ -24,7 +24,7 @@ function Experience() {
                     icon={<WorkIcon />}>
                     <h3 className="vertical-timeline-element-title"> Customer Service Team Member | BIG W</h3>
                     <h4 classname="vertical-timeline-element-subtitle">Sydney, New South Wales</h4>
-                    <p>Worked in the online section where items were collected and tagged to be packaged for online delivery.</p>
+                    <p>Worked in the online section where items were collected and tagged to be packaged for online delivery</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -33,7 +33,7 @@ function Experience() {
                     icon={<WorkIcon />}>
                     <h3 className="vertical-timeline-element-title"> Test Engineer | Wipro </h3>
                     <h4 classname="vertical-timeline-element-subtitle">Sydney, New South Wales</h4>
-                    <p>Performed various types of testing for wireless devices connected to the Telstra network.</p>
+                    <p>Performed various types of testing for wireless devices connected to the Telstra network</p>
                 </VerticalTimelineElement>
             </VerticalTimeline>
         </div>
