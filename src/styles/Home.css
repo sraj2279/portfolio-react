@@ -57,7 +57,12 @@
     font-size: 25px;
 }
 
+.icon:hover {
+    color: #e9d35b;
+}
+
 @media only screen and (max-width: 600px) {
+
     .about h1 {
         font-size: 40px;
     }

@@ -8,9 +8,9 @@ function Footer() {
     return (
         <div className="footer">
             <div className="socialMedia">
-                <LinkedInIcon onClick={() => window.open("https://www.linkedin.com/in/shyam-raj-652b55198/")} />
-                <EmailIcon onClick={() => { window.open("mailto:shyamraj0805@gmail.com"); window.alert("Email: shyamraj0805@gmail.com"); }} />
-                <GitHubIcon onClick={() => window.open("https://github.com/sraj2279")} />
+                <LinkedInIcon className="icon" onClick={() => window.open("https://www.linkedin.com/in/shyam-raj-652b55198/")} />
+                <EmailIcon className="icon" onClick={() => { window.open("mailto:shyamraj0805@gmail.com"); window.alert("Email: shyamraj0805@gmail.com"); }} />
+                <GitHubIcon className="icon" onClick={() => window.open("https://github.com/sraj2279")} />
             </div>
             <p>&copy; 2022 benraj.com</p>
         </div>

@@ -21,6 +21,10 @@
     color: white;
 }
 
+.icon:hover {
+    color: #e9d35b;
+}
+
 @media only screen and (max-width: 600px) {
     .footer svg {
         font-size: 50px;
