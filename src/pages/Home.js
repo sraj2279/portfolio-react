@@ -26,10 +26,10 @@ function Home() {
                     </li>
                     <li className="item2">
                         <h2>Back-End</h2>
-                        <span>NodeJS (Express, Mongoose), MongoDB, Python (Django), PostgreSQL, AWS</span>
+                        <span>NodeJS, Python Django, PostgreSQL, AWS</span>
                     </li>
                     <li className="item3">
-                        <h2> Other Languages</h2>
+                        <h2>Languages</h2>
                         <span>Java, Python, C, C++</span>
                     </li>
                     <li className="item4">
