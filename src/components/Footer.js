@@ -12,7 +12,7 @@ function Footer() {
                 <EmailIcon className="icon" onClick={() => { window.open("mailto:shyamraj0805@gmail.com"); window.alert("Email: shyamraj0805@gmail.com"); }} />
                 <GitHubIcon className="icon" onClick={() => window.open("https://github.com/sraj2279")} />
             </div>
-            <p>&copy; 2022 benraj.com</p>
+            <p>&copy; 2024 benraj.com</p>
         </div>
     )
 }
