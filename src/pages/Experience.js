@@ -10,10 +10,35 @@ function Experience() {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
+                    date="Jul 2024 - Sep 2024"
+                    iconStyle={{ background: "#e9d35b", color: "#fff" }}
+                    icon={<WorkIcon />}>
+                    <h3 className="vertical-timeline-element-title">Volunteer Web Developer</h3>
+                    <h4 classname="vertical-timeline-element-subtitle">CS Metalcraft Engineering</h4>
+                    <p>
+                        <ul>
+                            <li>Developed a fully responsive static website (<a href="https://csmetalcraftengineering.com/">https://csmetalcraftengineering.com/</a>)
+                                using React.js, enhancing the user experience through modern design principles and intuitive UI/UX.</li>
+
+                            <li>Utilised CSS Flexbox and Grid for a mobile-first design, ensuring cross-browser
+                                compatibility and responsiveness.</li>
+
+                            <li>Employed React Router for seamless navigation across multiple pages within the
+                                static website.</li>
+
+                            <li>Managed version control and collaboration using GitHub, ensuring organised and
+                                efficient development through branching, commits, and pull requests.</li>
+
+                        </ul>
+                    </p>
+                </VerticalTimelineElement>
+
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
                     date="Oct 2022 - Aug 2023"
                     iconStyle={{ background: "#e9d35b", color: "#fff" }}
                     icon={<WorkIcon />}>
-                    <h3 className="vertical-timeline-element-title"> Test Engineer</h3>
+                    <h3 className="vertical-timeline-element-title">Test Engineer</h3>
                     <h4 classname="vertical-timeline-element-subtitle">Wipro Limited</h4>
                     <p>
                         <ul>
@@ -35,13 +60,13 @@ function Experience() {
                     date="June 2021 - Feb 2022"
                     iconStyle={{ background: "#e9d35b", color: "#fff" }}
                     icon={<WorkIcon />}>
-                    <h3 className="vertical-timeline-element-title"> Customer Service Team Member</h3>
+                    <h3 className="vertical-timeline-element-title">Customer Service Team Member</h3>
                     <h4 classname="vertical-timeline-element-subtitle">BIG W</h4>
                     <p>
                         <ul>
                             <li>Provided exceptional customer service by addressing inquiries, resolving complaints, and ensuring customer satisfaction.</li>
 
-                            <li>Maintained up-to-date knowledge of products, services, and company policies to ef-fectively assist customers.</li>
+                            <li>Maintained up-to-date knowledge of products, services, and company policies to effectively assist customers.</li>
 
                             <li>Collaborated with team members and other departments to resolve complex issues and improve overall customer experience.</li>
 
@@ -62,7 +87,7 @@ function Experience() {
 
                             <li>Accurately picked, packed, and shipped orders according to company procedures and customer specifications.</li>
 
-                            <li>Maintained a clean and organized warehouse environment to ensure safety and effi-ciency.</li>
+                            <li>Maintained a clean and organized warehouse environment to ensure safety and efficiency.</li>
 
                         </ul>
                     </p>
