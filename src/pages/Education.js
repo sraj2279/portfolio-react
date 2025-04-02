@@ -10,6 +10,15 @@ function Education() {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
+                    date="Completed 2025"
+                    iconStyle={{ background: "#3e497a", color: "#fff" }}
+                    icon={<SchoolIcon />}>
+                    <h3 className="vertical-timeline-element-title">Google IT Support Professional Certificate </h3>
+                    <h4 classname="vertical-timeline-element-subtitle">Coursera</h4>
+                </VerticalTimelineElement>
+
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
                     date="Completed 2024"
                     iconStyle={{ background: "#3e497a", color: "#fff" }}
                     icon={<SchoolIcon />}>
